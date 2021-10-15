@@ -1,0 +1,57 @@
+h2 {
+    text-align: center;
+}
+
+
+
+span {
+    float: right;
+}
+
+ul { 
+	margin: 0; padding: 0; 
+} 
+
+ul li { 
+    cursor: pointer;
+    position: relative; 
+    padding: 12px 8px 12px 40px;
+    list-style-type: none; 
+    background: #fff; 
+    font-size: 18px; 
+    font-weight: bold; 
+    transition: 0.2s;
+    -webkit-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.is-active{
+    cursor: pointer;
+    position: relative; 
+    padding: 12px 8px 12px 40px;
+    list-style-type: none; 
+    background: green;
+    color: #fff; 
+    font-size: 18px;
+    font-weight: bold; 
+    transition: 0.2s;
+    -webkit-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.total{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    
+    font-size: 18px;
+    font-weight: bold; 
+}
